@@ -1,0 +1,19 @@
+{
+    "name": "idadrusdiana/belajar-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "BelajarPhpComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "idad rusdiana",
+            "email": "idadrusdiana01@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog" : "2.2.0"
+    }
+}
